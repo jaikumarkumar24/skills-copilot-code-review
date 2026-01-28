@@ -664,3 +664,14 @@ footer {
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/*
+  For accessibility, add role="banner" or role="alert" to the HTML element using this class.
+*/
+.announcement-banner {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
